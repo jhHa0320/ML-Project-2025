@@ -24,7 +24,7 @@
 - **Main Data**: [Zomato Bangalore Restaurants](https://www.kaggle.com/datasets/himanshupoddar/zomato-bangalore-restaurants) (Kaggle)
 - **Validation Data**: [Yelp Dataset](https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset) (Kaggle)
 
-### ⚙️ 전처리 파이프라인
+### 전처리 파이프라인
 1. **파싱 및 정규화**: HTML 태그, URL, 특수문자, 이모지 제거
 2. **구조 변환**: `reviews_list`를 explode하여 개별 행으로 분리
 3. **토큰화 및 정제**: NLTK 활용 소문자 변환, 불용어 제거, 표제어 추출
